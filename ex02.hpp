@@ -2,7 +2,7 @@
 // the function below now only works with integers, change it to work with any type
 // also fill out the body
 template <typename T>
-public class Calculator {
+class Calculator {
 private:
     T num1, num2;
 
@@ -12,17 +12,17 @@ public:
         num2 = n2;
     }
 
-    int add() {
-        return n1 * n2;
+    T add() {
+        return  this->num1 + this->num2;
     }
-    int subtract() {
-        return n1 - n2;
+    T subtract() {
+        return this->num1 - this->num2;
     }
-    int multiply() {
-        return n1 * n2;
+    T multiply() {
+        return num1 * num2;
     }
-    int divide() {
-        return n1 / n2
+    T divide() {
+        return num1 / num2;
     }
 };
 
