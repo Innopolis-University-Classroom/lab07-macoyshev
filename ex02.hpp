@@ -17,13 +17,13 @@ public:
         return  this->num1 + this->num2;
     }
     T subtract() {
-        return this->num1 - this->num2;
+        return num2 - num1;
     }
     T multiply() {
         return num1 * num2;
     }
     T divide() {
-        return num1 / num2;
+        return num2 / num1;
     }
 };
 
