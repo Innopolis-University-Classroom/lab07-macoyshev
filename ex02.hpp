@@ -14,7 +14,7 @@ public:
     }
 
     T add() {
-        return  this->num1 + this->num2;
+        return num1 + num2;
     }
     T subtract() {
         return num1 - num2;
